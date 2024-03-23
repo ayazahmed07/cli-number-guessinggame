@@ -11,4 +11,9 @@ const answer = await inquirer.prompt([
         message: "Please guess a number: ",
     },
 ]);
-console.log(answer);
+if (answer.userguessnumber === randomnumber) {
+    console.log("Congratulations you guess the right number");
+}
+else {
+    console.log("oh! You guessed the wrong number.");
+}
