@@ -1,9 +1,12 @@
 {
-  "name": "02-cli-number-guessing-game",
+  "name": "ayazahmed07-cli-number-guessing-game",
   "version": "1.0.0",
   "description": "number guessing game",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
